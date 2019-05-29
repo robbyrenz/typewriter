@@ -23,6 +23,21 @@ kbd {
   /* min-height: 100vh; */
   align-items: center;
   justify-content: center;
+  /* align-content: center; */
+  /* margin: auto; */
+  border: 10px solid red;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  /* margin: auto; */
+  border: 10px solid mistyrose;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .key {
@@ -41,3 +56,5 @@ kbd {
   box-shadow: 0 0 1px 2px green;
   border-color: grey;
 }
+
+/* you need to normalize CSS here and maybe set box-sizing to border-box */
